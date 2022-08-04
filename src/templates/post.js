@@ -36,10 +36,19 @@ const Post = ({ data, location }) => {
                             <h1 className="content-title">{post.title}</h1>
 
                             {/* The main post content */}
+
+                            <iframe src="https://ads-partners.coupang.com/widgets.html?id=574966&template=carousel&trackingCode=AF6560317&subId=&width=680&height=140" 
+                                    width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url">                                
+                            </iframe>
+
                             <section
                                 className="content-body load-external-scripts"
                                 dangerouslySetInnerHTML={{ __html: post.html }}
                             />
+
+                            <iframe src="https://ads-partners.coupang.com/widgets.html?id=574967&template=carousel&trackingCode=AF6560317&subId=&width=680&height=140" 
+                                    width="100%" height="140" frameborder="0" scrolling="no" referrerpolicy="unsafe-url">                                        
+                            </iframe>
                         </section>
                     </article>
                 </div>
